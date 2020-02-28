@@ -16,8 +16,8 @@
 - 提前将当前block所用到的数据从global gst_transactions下降明显，节省了读写global memory的事务（时间）。
 
 ## nvprof结果
-![img](../imgs/addsum1.png)
-![img2](../imgs/addsum2.png)
+![img](../imgs/addsum1.PNG)
+![img2](../imgs/addsum2.PNG)
 
 ## 为什么shared版本提升不大？
 - 是否和L1/L2 cache有关？
